@@ -22,7 +22,7 @@
 /*  22 */   public static final URI URL_REGISTER = constantURI("https://account.mojang.com/register");
 /*     */   public static final String DEFAULT_PROFILE_NAME = "(Default)";
 /*     */   public static final String URL_DOWNLOAD_BASE = "https://s3.amazonaws.com/Minecraft.Download/";
-/*     */   public static final String URL_RESOURCE_BASE = "http://resources.download.minecraft.net/";
+/*     */   public static final String URL_RESOURCE_BASE = "https://resources.download.minecraft.net/";
 /*     */   public static final String URL_LIBRARY_BASE = "https://libraries.minecraft.net/";
 /*     */   public static final String URL_BLOG = "http://servers.teamshiginima.com/";
 /*     */   public static final String URL_SUPPORT = "http://help.mojang.com/?ref=launcher";
