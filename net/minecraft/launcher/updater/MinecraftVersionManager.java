@@ -316,7 +316,7 @@
 /* 316 */         File file = new File(objectsFolder, filename);
 /* 317 */         if (!file.isFile() || FileUtils.sizeOf(file) != object.getSize()) {
 /*     */           
-/* 319 */           AssetDownloadable assetDownloadable = new AssetDownloadable(proxy, entry.getValue(), object, "http://resources.download.minecraft.net/", objectsFolder);
+/* 319 */           AssetDownloadable assetDownloadable = new AssetDownloadable(proxy, entry.getValue(), object, "https://resources.download.minecraft.net/", objectsFolder);
 /* 320 */           assetDownloadable.setExpectedSize(object.getSize());
 /* 321 */           result.add(assetDownloadable);
 /*     */         } 
